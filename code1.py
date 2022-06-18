@@ -52,5 +52,22 @@ else:
 
 tuple=('e', 'e', 'd','f','r','r','r',2)
 print(tuple.count('r'))
-print(tuple.index('f'))
+print(tuple.index('f')) 
+
+
+mydict = {"name": "Max", "age": 32, "city":"Paris"}
+print(mydict)
+mydict["mail"] =  "arri@gmail.com"
+print(mydict)
+
+if "name" in mydict:
+    print("yes")
+else:
+    print("no")
+del mydict["name"]
+print(mydict)
+print(mydict.popitem())
+
+for key, value in mydict.items():
+    print(key,value)
 
