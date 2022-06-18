@@ -32,3 +32,25 @@ a = [1,2,3,4,5,]
 print(a)
 b= [i*i for i in a]
 print(b)
+
+
+mytuple = ("Max", 28,"Boston")
+print(mytuple)
+print(type(mytuple))
+
+item = mytuple[-2]
+print(item)
+
+for x in mytuple:
+    print(x)
+
+if "Boston" in mytuple:
+    print("yes")
+else:
+    print("no")
+
+
+tuple=('e', 'e', 'd','f','r','r','r',2)
+print(tuple.count('r'))
+print(tuple.index('f'))
+
